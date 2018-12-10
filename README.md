@@ -1,8 +1,8 @@
-# springsleuthzipkinclient
-Spring Sleuth Zipkin Client
+# Spring Scheduler
+Spring Scheduler is the spring 
 
-To run this application on your system. First clone the repository. 
+@EnableScheduling need this annotation on main class
 
-run the application.
+@Scheduled(fixedRate = 5000) this is the annotation need to put over the method need to execute after every fixed interval
 
-Endpoint: http://localhost:8080/consume
+Endpoint: http://localhost:8080/consume this endpoint will keep getting executed after every 5 seconds. 
